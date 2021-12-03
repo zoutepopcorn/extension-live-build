@@ -2,6 +2,7 @@
 node_modules
 /dist
 options
+temp_*
 
 # local env files
 .env.local

@@ -1,8 +1,9 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "version": "0.0.3",
   "name": "Live_option_page",
-  "description": "build live option page with vite",
+  "description": "build live option page with Vuetify 3",
+  "minimum_chrome_version": 93,
   "icons": {
     "16": "images/16x16.png"
   },
@@ -10,17 +11,18 @@
     "default_icon": "images/16x16.png"
   },
   "background": {
-    "scripts": [
-      "background/index.js"
-    ],
-    "persistent": true
+    "service_worker": "background/index.js"
   },
-  "web_accessible_resources": ["/options/*"],
+  "web_accessible_resources": [{
+    "resources": ["/options/*"],
+    "matches": ["<all_urls>"]
+  }],
   "options_ui": {
     "page": "options/index.html",
     "open_in_tab": true
   },
   "permissions": [
-    "tabs"
+    "tabs",
+    "browser_action"
   ]
 }

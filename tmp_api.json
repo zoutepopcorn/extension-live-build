@@ -1,0 +1,162 @@
+{
+  "dom": {},
+  "extension": {
+    "ViewType": {
+      "POPUP": "popup",
+      "TAB": "tab"
+    },
+    "inIncognitoContext": false
+  },
+  "i18n": {},
+  "management": {
+    "ExtensionDisabledReason": {
+      "PERMISSIONS_INCREASE": "permissions_increase",
+      "UNKNOWN": "unknown"
+    },
+    "ExtensionInstallType": {
+      "ADMIN": "admin",
+      "DEVELOPMENT": "development",
+      "NORMAL": "normal",
+      "OTHER": "other",
+      "SIDELOAD": "sideload"
+    },
+    "ExtensionType": {
+      "EXTENSION": "extension",
+      "HOSTED_APP": "hosted_app",
+      "LEGACY_PACKAGED_APP": "legacy_packaged_app",
+      "LOGIN_SCREEN_EXTENSION": "login_screen_extension",
+      "PACKAGED_APP": "packaged_app",
+      "THEME": "theme"
+    },
+    "LaunchType": {
+      "OPEN_AS_PINNED_TAB": "OPEN_AS_PINNED_TAB",
+      "OPEN_AS_REGULAR_TAB": "OPEN_AS_REGULAR_TAB",
+      "OPEN_AS_WINDOW": "OPEN_AS_WINDOW",
+      "OPEN_FULL_SCREEN": "OPEN_FULL_SCREEN"
+    }
+  },
+  "permissions": {
+    "onRemoved": {},
+    "onAdded": {}
+  },
+  "runtime": {
+    "id": "ephicnmieloibnbkcjofbadjgjbbhfdf",
+    "onRestartRequired": {},
+    "onMessageExternal": {},
+    "onMessage": {},
+    "onConnectExternal": {},
+    "onConnect": {},
+    "onBrowserUpdateAvailable": {},
+    "onUpdateAvailable": {},
+    "onSuspendCanceled": {},
+    "onSuspend": {},
+    "onInstalled": {},
+    "onStartup": {},
+    "OnInstalledReason": {
+      "CHROME_UPDATE": "chrome_update",
+      "INSTALL": "install",
+      "SHARED_MODULE_UPDATE": "shared_module_update",
+      "UPDATE": "update"
+    },
+    "OnRestartRequiredReason": {
+      "APP_UPDATE": "app_update",
+      "OS_UPDATE": "os_update",
+      "PERIODIC": "periodic"
+    },
+    "PlatformArch": {
+      "ARM": "arm",
+      "ARM64": "arm64",
+      "MIPS": "mips",
+      "MIPS64": "mips64",
+      "X86_32": "x86-32",
+      "X86_64": "x86-64"
+    },
+    "PlatformNaclArch": {
+      "ARM": "arm",
+      "MIPS": "mips",
+      "MIPS64": "mips64",
+      "X86_32": "x86-32",
+      "X86_64": "x86-64"
+    },
+    "PlatformOs": {
+      "ANDROID": "android",
+      "CROS": "cros",
+      "LINUX": "linux",
+      "MAC": "mac",
+      "OPENBSD": "openbsd",
+      "WIN": "win"
+    },
+    "RequestUpdateCheckStatus": {
+      "NO_UPDATE": "no_update",
+      "THROTTLED": "throttled",
+      "UPDATE_AVAILABLE": "update_available"
+    }
+  },
+  "tabs": {
+    "onZoomChange": {},
+    "onReplaced": {},
+    "onRemoved": {},
+    "onAttached": {},
+    "onDetached": {},
+    "onHighlighted": {},
+    "onActivated": {},
+    "onMoved": {},
+    "onUpdated": {},
+    "onCreated": {},
+    "MutedInfoReason": {
+      "CAPTURE": "capture",
+      "EXTENSION": "extension",
+      "USER": "user"
+    },
+    "TabStatus": {
+      "COMPLETE": "complete",
+      "LOADING": "loading",
+      "UNLOADED": "unloaded"
+    },
+    "WindowType": {
+      "APP": "app",
+      "DEVTOOLS": "devtools",
+      "NORMAL": "normal",
+      "PANEL": "panel",
+      "POPUP": "popup"
+    },
+    "ZoomSettingsMode": {
+      "AUTOMATIC": "automatic",
+      "DISABLED": "disabled",
+      "MANUAL": "manual"
+    },
+    "ZoomSettingsScope": {
+      "PER_ORIGIN": "per-origin",
+      "PER_TAB": "per-tab"
+    },
+    "MAX_CAPTURE_VISIBLE_TAB_CALLS_PER_SECOND": 2,
+    "TAB_ID_NONE": -1
+  },
+  "windows": {
+    "onBoundsChanged": {},
+    "onFocusChanged": {},
+    "onRemoved": {},
+    "onCreated": {},
+    "CreateType": {
+      "NORMAL": "normal",
+      "PANEL": "panel",
+      "POPUP": "popup"
+    },
+    "WindowState": {
+      "FULLSCREEN": "fullscreen",
+      "LOCKED_FULLSCREEN": "locked-fullscreen",
+      "MAXIMIZED": "maximized",
+      "MINIMIZED": "minimized",
+      "NORMAL": "normal"
+    },
+    "WindowType": {
+      "APP": "app",
+      "DEVTOOLS": "devtools",
+      "NORMAL": "normal",
+      "PANEL": "panel",
+      "POPUP": "popup"
+    },
+    "WINDOW_ID_CURRENT": -2,
+    "WINDOW_ID_NONE": -1
+  }
+}
