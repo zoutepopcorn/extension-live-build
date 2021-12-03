@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "version": "0.0.3",
+  "name": "Live_option_page",
+  "description": "build live option page with vite",
+  "icons": {
+    "16": "images/16x16.png"
+  },
+  "browser_action": {
+    "default_icon": "images/16x16.png"
+  },
+  "background": {
+    "scripts": [
+      "background/index.js"
+    ],
+    "persistent": true
+  },
+  "web_accessible_resources": ["/options/*"],
+  "options_ui": {
+    "page": "options/index.html",
+    "open_in_tab": true
+  },
+  "permissions": [
+    "tabs"
+  ]
+}

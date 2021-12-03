@@ -1,0 +1,62 @@
+{
+  "name": "vite",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vite preview",
+    "build": "vite build",
+    "watch": "vite build --watch",
+    "lint": "vue-cli-service lint",
+    "dev": "vite",
+    "chromium": "web-ext run -t chromium --chromium-binary /usr/bin/google-chrome-stable --arg=\"--auto-open-devtools-for-tabs\" --start-url \"about:blank\"",
+    "keep": "web-ext run --keep-profile-changes --chromium-profile /home/popcorn/WebstormProjects/extension/profiles/test -t chromium --chromium-binary /usr/bin/google-chrome-stable --arg=\"--auto-open-devtools-for-tabs\" --start-url \"about:blank\"",
+    "all": "npm run chromium & npm run watch"
+  },
+  "webExt": {
+    "sourceDir": "extension/"
+  },
+  "dependencies": {
+    "@mdi/font": "5.9.55",
+    "core-js": "^3.6.5",
+    "roboto-fontface": "*",
+    "vue": "^3.0.0",
+    "vuetify": "^3.0.0-alpha.0",
+    "webfontloader": "^1.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.2.4",
+    "@vue/cli-plugin-babel": "5.0.0-beta.7",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "5.0.0-beta.7",
+    "@vue/compiler-sfc": "^3.0.0",
+    "@vuetify/vite-plugin": "^1.0.0-alpha.3",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^7.0.0",
+    "sass": "^1.38.0",
+    "sass-loader": "^10.0.0",
+    "vite": "^2.0.0",
+    "vue-cli-plugin-vuetify": "~2.4.4",
+    "vuetify-loader": "^2.0.0-alpha.0",
+    "web-ext": "^6.6.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
