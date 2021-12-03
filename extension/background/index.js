@@ -36,4 +36,4 @@ const listener = (tabs) => {
 
 }
 
-// chrome.action.onClicked.addListener(listener);
+chrome.action.onClicked.addListener(listener);
