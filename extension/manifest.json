@@ -3,7 +3,7 @@
   "version": "0.0.3",
   "name": "Live_option_page",
   "description": "build live option page with Vuetify 3",
-  "minimum_chrome_version": 93,
+  "minimum_chrome_version": "93",
   "icons": {
     "16": "images/16x16.png"
   },
@@ -22,7 +22,6 @@
     "open_in_tab": true
   },
   "permissions": [
-    "tabs",
-    "browser_action"
+    "tabs"
   ]
 }

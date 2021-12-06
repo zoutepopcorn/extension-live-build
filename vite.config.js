@@ -4,11 +4,9 @@ import vuetify from '@vuetify/vite-plugin'
 
 import path from 'path'
 
-// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
     vue(),
-    // https://github.com/vuetifyjs/vuetify-loader/tree/next/packages/vite-plugin
     vuetify({
       autoImport: true,
     }),
@@ -23,18 +21,4 @@ export default defineConfig({
     outDir: "extension/options"
   },
   base: "options"
-
-  /* remove the need to specify .vue files https://vitejs.dev/config/#resolve-extensions
-  resolve: {
-    extensions: [
-      '.js',
-      '.json',
-      '.jsx',
-      '.mjs',
-      '.ts',
-      '.tsx',
-      '.vue',
-    ]
-  },
-  */
 })
