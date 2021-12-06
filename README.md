@@ -1,6 +1,6 @@
 # What is this 🤔
 
-It's an simple webextension, with a Vuetify option page. Now it's possible to have a "live build" folder. 
+It's a simple webextension, with a Vuetify option page. Now it's possible to have a "live build" folder. 
 
 So You don't have to wait 6 seconds, for every time you want to test the option page 😀
 
